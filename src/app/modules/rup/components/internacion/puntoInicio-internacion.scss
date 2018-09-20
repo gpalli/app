@@ -64,61 +64,61 @@ h3 {
     &.sm {
         width: 8rem;
         height: 8rem;
-    } 
+    }
 
 }
 
 hr {
-	border: solid 1px;
+    border: solid 1px;
 
     &.separate {
         margin: 10px 0 10px 0;
     }
 
-	&.blanco {
-		border-color: white;
-	}
+    &.blanco {
+        border-color: white;
+    }
 
-	&.gris {
-		border-color: $andes-gris;
-	}
+    &.gris {
+        border-color: $andes-gris;
+    }
 
-	&.magenta {
-		border-color: $andes-magenta;
-	}
+    &.magenta {
+        border-color: $andes-magenta;
+    }
 
-	&.cyan {
-		border-color: $andes-cyan;
-	}
+    &.cyan {
+        border-color: $andes-cyan;
+    }
 
-	&.celeste {
-		border-color: $andes-celeste;
-	}
+    &.celeste {
+        border-color: $andes-celeste;
+    }
 
-	// Variantes de tamaño
-	&.xxs {
-		width: 10%;
-	}
-	
-	&.xs {
-		width: 15px;
-	}
-	
-	&.sm {
-		width: 35%;
-	}
-	
-	&.md {
-		width: 50%;
-	}
-	
-	&.lg {
-		width: 75%;
-	}
-	
-	&.xl {
-		width: 100%;
-		
+    // Variantes de tamaño
+    &.xxs {
+        width: 10%;
+    }
+
+    &.xs {
+        width: 15px;
+    }
+
+    &.sm {
+        width: 35%;
+    }
+
+    &.md {
+        width: 50%;
+    }
+
+    &.lg {
+        width: 75%;
+    }
+
+    &.xl {
+        width: 100%;
+
     }
 }
 
@@ -130,13 +130,14 @@ hr {
     font-size: 1.4em;
     font-weight: normal;
     margin: 18px 2px;
+
     &.warning {
         border-color: #ff8d22;
         color: #ff8d22;
     }
 }
 
-plex-layout-sidebar plex-box>DIV {
+plex-layout-sidebar div.plex-box {
 
 
     h3,
